@@ -1,0 +1,17 @@
+{
+    "name": "thuyenars/calculator",
+    "description": "demo package",
+    "authors": [
+        {
+            "name": "thuyennv",
+            "email": "thuyennv.hust@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Devdojo\\Calculator\\": "packages/devdojo/calculator/src"
+        }
+    },
+    "require": {}
+}
